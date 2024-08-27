@@ -51,7 +51,7 @@ export const PokemonPage = () => {
     }
   };
 
-  if (loading || !pokemon) return <Loader />; // Muestra un loader mientras carga
+  if (loading || !pokemon) return <Loader />; 
 
   return (
     <>
