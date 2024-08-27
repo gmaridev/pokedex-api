@@ -30,8 +30,8 @@ function PokemonList() {
       {
         breakpoint: 769, // Tamaño de pantalla para dispositivos móviles
         settings: {
-          slidesToShow: 3, // Mostrar 3 pokemones
-          slidesToScroll: 1,
+          slidesToShow: 2, // Mostrar 3 pokemones
+          slidesToScroll: 2,
         },
       },
       {
