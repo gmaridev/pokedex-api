@@ -17,7 +17,52 @@ function PokemonList() {
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 4,
-    arrows: false
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1246, // Tamaño de pantalla para dispositivos móviles
+        settings: {
+          slidesToShow: 5, // Mostrar 3 pokemones
+          slidesToScroll: 4,
+        },
+      },
+
+      {
+        breakpoint: 769, // Tamaño de pantalla para dispositivos móviles
+        settings: {
+          slidesToShow: 3, // Mostrar 3 pokemones
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480, // Tamaño de pantalla para dispositivos más pequeños
+        settings: {
+          slidesToShow: 2, // Mostrar 2 pokemones
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 413, // Tamaño de pantalla para dispositivos más pequeños
+        settings: {
+          slidesToShow: 1, // Mostrar 2 pokemones
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 376, // Tamaño de pantalla para dispositivos más pequeños
+        settings: {
+          slidesToShow: 2, // Mostrar 2 pokemones
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 361, // Tamaño de pantalla para dispositivos más pequeños
+        settings: {
+          slidesToShow: 1, // Mostrar 2 pokemones
+          slidesToScroll: 1,
+        },
+      },
+    ],
 
 };
   return (
