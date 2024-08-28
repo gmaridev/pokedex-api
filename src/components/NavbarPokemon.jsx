@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from 'framer-motion';
 import { Link } from "react-router-dom";
+import { FaHome } from "react-icons/fa";
+
 function NavbarPokemon() {
   const variants = {
     animate: { scale: 1.1 },
@@ -35,6 +37,10 @@ function NavbarPokemon() {
           <a href="#">Media</a>
         </li>
       </ul>
+
+      <div className="mobile-nav">
+         <a href="/"><FaHome style={{color:"white",fontSize:"1.4em"}}/></a>
+      </div>
      
     </header>
     </motion.div>

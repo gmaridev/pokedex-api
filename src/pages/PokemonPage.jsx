@@ -81,10 +81,13 @@ export const PokemonPage = () => {
               ))}
               
             </div>
-
-            <div className="stats">
+            <div className="info">
               <span className="pokemon-description-id">#{pokemon.id}</span>
               <h2 className="pokemon-description-name">{primerMayuscula(pokemon.name)}</h2>
+              </div>
+            <div className="stats">
+              
+              <div className="powers-stats">
               <div className="stat-group">
                 <span>HP</span>
                 <progress value={pokemon.stats[0].base_stat / 100}/>
@@ -127,11 +130,12 @@ export const PokemonPage = () => {
                   {pokemon.stats[5].base_stat}
                 </span>
               </div>
+              </div>
             </div>
           </div>
         </main>
         <ArrowButton onClick={handleNextPokemon} disabled={isButtonDisabled} />
-        <Footer isPokemonPage={true} />
+       
       </body>
     </>
   );
