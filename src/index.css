@@ -390,7 +390,7 @@ button {
 .stat-group span {
 	flex: 20%;
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 18px; 
 }
 .type-icon {
   width: 50px;
