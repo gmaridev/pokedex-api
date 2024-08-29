@@ -135,7 +135,7 @@ export const PokemonPage = () => {
           </div>
         </main>
         <ArrowButton onClick={handleNextPokemon} disabled={isButtonDisabled} />
-        <Footer isPokemonPage={true} style />
+        <Footer isPokemonPage={true}/>
       </body>
       
     </>
