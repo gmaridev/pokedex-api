@@ -90,8 +90,8 @@ body {
 
 /*rEVISAR AQUÍ */
 .homepage-bg {
-  height: 100vh; /* 100vh equivale al 100% de la altura de la viewport */
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+  height: 10%; /* 100vh equivale al 100% de la altura de la viewport */
+  width: 100%; /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(104, 249, 31, 0.422), rgba(21, 236, 222, 0.989), rgba(14, 114, 215, 0.566)); /* Cambia el color a tu gusto */
   flex-direction: column;
   align-items: center;
