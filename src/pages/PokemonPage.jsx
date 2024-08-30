@@ -55,7 +55,7 @@ export const PokemonPage = () => {
 
   return (
     <>
-      <body className={`${pokemon.name}`}>
+      <body className={`${pokemon.name}`} id="body-pokemons">
         <main>
           <NavbarPokemon />
           <div className="container-stats">

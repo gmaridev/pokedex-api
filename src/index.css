@@ -140,154 +140,132 @@ body {
   filter: drop-shadow(#121212e2 0 1px 10px);
 }
 
-
+#body-pokemons {
+  height:100%;
+  width: 100vw;
+}
 
 
 .bulbasaur{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+   /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(76, 186, 162, 0.735), rgba(5, 114, 82, 0.566)); /* 100vw equivale al 100% del ancho de la viewport */
   overflow: hidden;
   position: relative;
   display: flex;
 }
-.ivysaur{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+.ivysaur{ /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(5, 62, 74, 0.438), rgba(18, 210, 206, 0.731)); /* 100vw equivale al 100% del ancho de la viewport */
   position: relative;
   display: flex;
 }
-.venusaur{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+.venusaur{ /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(5, 62, 74, 0.438), rgba(18, 210, 206, 0.731)); /* 100vw equivale al 100% del ancho de la viewport */
   position: relative;
   display: flex;
 }
 .charmander{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+ /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(247, 112, 50, 0.53), rgba(198, 77, 11, 0.731)); /* 100vw equivale al 100% del ancho de la viewport */
   position: relative;
   display: flex;
 }
 .charmeleon{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+ /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(170, 66, 66, 0.639), rgba(167, 2, 2, 0.881)); /* 100vw equivale al 100% del ancho de la viewport */
   position: relative;
   display: flex;
 }
 .charizard{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+/* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(218, 186, 47, 0.639), rgba(220, 134, 36, 0.881)); /* 100vw equivale al 100% del ancho de la viewport */
   position: relative;
   display: flex;
 }
 .squirtle{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+ /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(59, 141, 152, 0.639), rgba(98, 247, 245, 0.881)); /* 100vw equivale al 100% del ancho de la viewport */
   position: relative;
   display: flex;
 }
 .wartortle{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+  /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(102, 134, 204, 0.639), rgba(77, 100, 190, 0.881)); /* 100vw equivale al 100% del ancho de la viewport */
   position: relative;
   display: flex;
 }
 .blastoise{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+ /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(29, 158, 222, 0.639), rgba(7, 99, 156, 0.881)); /* 100vw equivale al 100% del ancho de la viewport */
   position: relative;
   display: flex;
 }
 .blastoise{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+ /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(29, 158, 222, 0.639), rgba(7, 99, 156, 0.881)); /* 100vw equivale al 100% del ancho de la viewport */
   position: relative;
   display: flex;
 }
 
 .caterpie{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+ /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(74, 179, 98, 0.735), rgba(40, 164, 90, 0.881)); 
   position: relative;
   display: flex;
 }
 .metapod{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+ /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(126, 235, 49, 0.735), rgba(33, 215, 106, 0.881)); 
   position: relative;
   display: flex;
 }
 .butterfree{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+/* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(89, 9, 142, 0.735), rgba(46, 7, 110, 0.881)); 
   position: relative;
   display: flex;
 }
 .weedle{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+ /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(248, 168, 232, 0.735), rgba(234, 126, 174, 0.881)); 
   position: relative;
   display: flex;
 }
 .kakuna{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+/* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(197, 185, 62, 0.566), rgb(245, 228, 47)); 
   position: relative;
   display: flex;
 }
 .beedrill{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(232, 176, 45, 0.566), rgb(227, 196, 59)); 
   position: relative;
   display: flex;
 }
 .pidgey{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+ /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(240, 207, 131, 0.566), rgb(179, 148, 97)); 
   position: relative;
   display: flex;
 }
 .pidgeotto{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+ /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(231, 174, 83, 0.566), rgb(129, 86, 16)); 
   position: relative;
   display: flex;
 }
-.pidgeot{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+.pidgeot{ /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(231, 174, 83, 0.566), rgb(129, 86, 16)); 
   position: relative;
   display: flex;
 }
 .rattata{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+ /* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(175, 46, 211, 0.566), rgb(132, 9, 156)); 
   position: relative;
   display: flex;
 }
 .raticate{
-  height:100vh;
-  width: 100vw; /* 100vw equivale al 100% del ancho de la viewport */
+/* 100vw equivale al 100% del ancho de la viewport */
   background: radial-gradient(circle, rgba(186, 128, 74, 0.566), rgb(174, 100, 15)); 
   position: relative;
   display: flex;
@@ -460,7 +438,7 @@ footer {
   /* Responsive */
    /* Homepage */
   
-  @media (width <= 413px) {
+  @media (width <= 415px) {
     .homepage-logo{
       padding: 0;
       display: flex;
@@ -839,120 +817,12 @@ footer {
 
   }
   @media (min-width: 360px) and (max-width: 430px) {
-    .bulbasaur{
+    #body-pokemons {
       height:115vh;
       width: 110vw; 
       overflow: auto;
-      /* 100vw equivale al 100% del ancho de la viewport */
     }
-    .ivysaur{
-      height:115vh;
-      width: 100vw;
-      overflow: auto; /* 100vw equivale al 100% del ancho de la viewport */
-    }
-    .venusaur{
-      height:115vh;
-      width: 110vw; 
-      overflow: auto;/* 100vw equivale al 100% del ancho de la viewport */
-    }
-    .charmander{
-      height:115vh;
-      width: 110vw;
-      overflow: auto; /* 100vw equivale al 100% del ancho de la viewport */
-    }
-    .charmeleon{
-      height:115vh;
-      width: 110vw;
-      overflow: auto; /* 100vw equivale al 100% del ancho de la viewport */
-    }
-    .charizard{
-      height:115vh;
-      width: 110vw;
-      overflow: auto;/* 100vw equivale al 100% del ancho de la viewport */
-    }
-    .squirtle{
-      height:115vh;
-      width: 110vw;
-      overflow: auto; /* 100vw equivale al 100% del ancho de la viewport */
-    }
-    .wartortle{
-      height:115vh;
-      width: 110vw; /* 100vw equivale al 100% del ancho de la viewport */
-      overflow: auto;
-    }
-    .blastoise{
-      height:115vh;
-      width: 110vw;
-      overflow: auto; /* 100vw equivale al 100% del ancho de la viewport */
-    }
-    .blastoise{
-      height:115vh;
-      width: 110vw;
-      overflow: auto; /* 100vw equivale al 100% del ancho de la viewport */
-  
-    }
-    
-    .caterpie{
-      height:115vh;
-      width: 110vw;
-      overflow: auto; /* 100vw equivale al 100% del ancho de la viewport */
-    }
-    .metapod{
-      height:115vh;
-      width: 110vw;
-      overflow: auto; /* 100vw equivale al 100% del ancho de la viewport */
-  
-    }
-    .butterfree{
-      height:115vh;
-      width: 110vw;
-      overflow: auto; /* 100vw equivale al 100% del ancho de la viewport */
-    }
-    .weedle{
-      height:115vh;
-      width: 110vw;
-      overflow: auto; /* 100vw equivale al 100% del ancho de la viewport */
-    }
-    .kakuna{
-      height:115vh;
-      width: 110vw;
-      overflow: auto; /* 100vw equivale al 100% del ancho de la viewport */
-    }
-    .beedrill{
-      height:115vh;
-      width: 110vw; 
-      overflow: auto;/* 100vw equivale al 100% del ancho de la viewport */
-    }
-    .pidgey{
-      height:115vh;
-      width: 110vw; 
-      overflow: auto;/* 100vw equivale al 100% del ancho de la viewport */
-  
-    }
-    .pidgeotto{
-      height:115vh;
-      width: 110vw;
-      overflow: auto; /* 100vw equivale al 100% del ancho de la viewport */
-  
-  }
-  .pidgeot{
-    height:115vh;
-    width: 110vw;
-    overflow: auto; /* 100vw equivale al 100% del ancho de la viewport */
-
-  }
-  .rattata{
-    height:115vh;
-    width: 110vw; 
-    overflow: auto;/* 100vw equivale al 100% del ancho de la viewport */
-
-  }
-  .raticate{
-    height:115vh;
-    width: 110vw; 
-    overflow: auto;/* 100vw equivale al 100% del ancho de la viewport */
-
-  }
+   
     .pokemon-photo {
       position: static;
       width: 40vw;
